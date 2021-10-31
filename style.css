@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Miso;
+  src: url('fonts/miso.otf');
+}
+
+@font-face {
+  font-family: Miso-bold;
+  src: url('fonts/miso-bold.otf');
+}
+
+body {
+  margin: 0;
+  background-color: #fdde7e;
+}
+
+.cups {
+  margin-left: 165px;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  gap: 30px;
+  background-color: #fdde7e;
+  justify-content: center;
+  align-items: center;
+}
+
+.bronze-cup, .silver-cup {
+  width: 180px;
+  height: 420px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  box-shadow: 0 1px 2px #807f7f;
+}
+
+.gold-cup {
+  width: 180px;
+  height: 470px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+  box-shadow: 0 1px 2px #807f7f;
+}
+
+h2 {
+  color: #02995b;
+  font-family: Miso, sans-serif;
+  font-size: 73px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  font-size: 21px;
+}
+
+p>span {
+  font-family: Miso-bold, sans-serif;
+  font-size: 52px;
+}
+
+img {
+  margin-top: 9px;
+  margin-bottom: 2px;
+}
+
+.gold {
+  margin-top: 29px;
+  margin-bottom: 12px;
+}
